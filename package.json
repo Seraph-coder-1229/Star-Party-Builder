@@ -1,0 +1,32 @@
+{
+  "name": "star-party-builder",
+  "version": "0.1.0",
+  "description": "A quick party builder app built for the Star Party. ",
+  "main": "main.js",
+  "scripts": {
+    "docs": "rm -rf ./docs && jsdoc -c jsdoc.json",
+    "dev": "rm -rf ./development && rm -rf ./.cache && parcel public/index.html --out-dir dev",
+    "build": "parcel build public/index.html --out-dir dist --public-url ./",
+    "scss": "node-sass --watch ./scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seraph-coder-1229/Star-Party-Builder.git"
+  },
+  "keywords": [
+    "Star",
+    "Party"
+  ],
+  "author": "Idaho potatoes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Seraph-coder-1229/Star-Party-Builder/issues"
+  },
+  "homepage": "https://github.com/Seraph-coder-1229/Star-Party-Builder#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "js-logger": "^1.6.1",
+    "popper.js": "^1.16.1"
+  }
+}
