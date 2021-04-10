@@ -29,7 +29,7 @@ const templates = {
 };
 
 function generateSelect(id, r, c) {
-  return ` <select class=" form-select border-0 m-1" id=${id} data-row = ${r} data-column=${c} aria-label="Default select example">
+  return ` <select class=" form-select border-0 w-100 h-100" id=${id} data-row = ${r} data-column=${c} data-type="" >
                 
         </select>`;
 }

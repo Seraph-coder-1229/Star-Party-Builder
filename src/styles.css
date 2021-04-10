@@ -1,109 +1,597 @@
 /* WAR Class: Red */
 [data-type="WAR"] {
-  background-color: aliceblue;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+  background: #a90329; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    hsla(346, 96%, 34%, 1) 0%,
+    hsla(346, 97%, 29%, 1) 44%,
+    hsla(346, 100%, 22%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    hsla(346, 96%, 34%, 1) 0%,
+    hsla(346, 97%, 29%, 1) 44%,
+    hsla(346, 100%, 22%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    hsla(346, 96%, 34%, 1) 0%,
+    hsla(346, 97%, 29%, 1) 44%,
+    hsla(346, 100%, 22%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+  color: whitesmoke;
 }
 
 /* MNK Class: Orange */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="MNK"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffa84c+0,ff7b0d+100;Orange+3D */
+  background: #ffa84c; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    hsla(31, 100%, 65%, 1) 0%,
+    hsla(27, 100%, 53%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    hsla(31, 100%, 65%, 1) 0%,
+    hsla(27, 100%, 53%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    hsla(31, 100%, 65%, 1) 0%,
+    hsla(27, 100%, 53%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
 }
 
 /* WHM Class: white/red */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="WHM"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+37,f02f17+68,e73827+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(0, 0%, 100%, 1) 37%,
+    hsla(7, 88%, 52%, 1) 68%,
+    hsla(5, 80%, 53%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(0, 0%, 100%, 1) 37%,
+    hsla(7, 88%, 52%, 1) 68%,
+    hsla(5, 80%, 53%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(0, 0%, 100%, 1) 37%,
+    hsla(7, 88%, 52%, 1) 68%,
+    hsla(5, 80%, 53%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e73827',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* BLM Class: Black */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="BLM"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+  background: #45484d; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(218, 5%, 29%, 1) 0%,
+    hsla(0, 0%, 0%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(218, 5%, 29%, 1) 0%,
+    hsla(0, 0%, 0%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(218, 5%, 29%, 1) 0%,
+    hsla(0, 0%, 0%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  color: whitesmoke;
 }
 
 /* RDM Class: Red/Gold */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="RDM"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fc2323+0,fc2323+49,000000+50,c79810+50,c79810+100 */
+  background: #fc2323; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(0, 97%, 56%, 1) 0%,
+    hsla(0, 97%, 56%, 1) 49%,
+    hsla(0, 0%, 0%, 1) 50%,
+    hsla(45, 85%, 42%, 1) 50%,
+    hsla(45, 85%, 42%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(0, 97%, 56%, 1) 0%,
+    hsla(0, 97%, 56%, 1) 49%,
+    hsla(0, 0%, 0%, 1) 50%,
+    hsla(45, 85%, 42%, 1) 50%,
+    hsla(45, 85%, 42%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(0, 97%, 56%, 1) 0%,
+    hsla(0, 97%, 56%, 1) 49%,
+    hsla(0, 0%, 0%, 1) 50%,
+    hsla(45, 85%, 42%, 1) 50%,
+    hsla(45, 85%, 42%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc2323', endColorstr='#c79810',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* THF Class: Green */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="THF"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4e391+0,61c419+50,b4e391+100;Green+3D */
+  background: #b4e391; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(94, 60%, 73%, 1) 0%,
+    hsla(95, 77%, 44%, 1) 50%,
+    hsla(94, 60%, 73%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(94, 60%, 73%, 1) 0%,
+    hsla(95, 77%, 44%, 1) 50%,
+    hsla(94, 60%, 73%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(94, 60%, 73%, 1) 0%,
+    hsla(95, 77%, 44%, 1) 50%,
+    hsla(94, 60%, 73%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* PLD Class: white/grey */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="PLD"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(0, 0%, 95%, 1) 50%,
+    hsla(0, 0%, 88%, 1) 51%,
+    hsla(0, 0%, 96%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(0, 0%, 95%, 1) 50%,
+    hsla(0, 0%, 88%, 1) 51%,
+    hsla(0, 0%, 96%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(0, 0%, 95%, 1) 50%,
+    hsla(0, 0%, 88%, 1) 51%,
+    hsla(0, 0%, 96%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* DRK Class: Black/Grey*/
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="DRK"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aebcbf+0,6e7774+50,0a0e0a+51,0a0809+100;Black+Gloss */
+  background: #aebcbf; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(191, 12%, 72%, 1) 0%,
+    hsla(160, 4%, 45%, 1) 50%,
+    hsla(120, 17%, 5%, 1) 51%,
+    hsla(330, 11%, 4%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(191, 12%, 72%, 1) 0%,
+    hsla(160, 4%, 45%, 1) 50%,
+    hsla(120, 17%, 5%, 1) 51%,
+    hsla(330, 11%, 4%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(191, 12%, 72%, 1) 0%,
+    hsla(160, 4%, 45%, 1) 50%,
+    hsla(120, 17%, 5%, 1) 51%,
+    hsla(330, 11%, 4%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* BST Class: Brown */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="BST"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0b7a1+0,8c3310+50,752201+51,bf6e4e+100;Brown+Gloss */
+  background: #f0b7a1; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(17, 73%, 79%, 1) 0%,
+    hsla(17, 80%, 31%, 1) 50%,
+    hsla(17, 98%, 23%, 1) 51%,
+    hsla(17, 47%, 53%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(17, 73%, 79%, 1) 0%,
+    hsla(17, 80%, 31%, 1) 50%,
+    hsla(17, 98%, 23%, 1) 51%,
+    hsla(17, 47%, 53%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(17, 73%, 79%, 1) 0%,
+    hsla(17, 80%, 31%, 1) 50%,
+    hsla(17, 98%, 23%, 1) 51%,
+    hsla(17, 47%, 53%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* BRD Class: Light Brown */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="BRD"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3e2c7+0,c19e67+50,b68d4c+51,e9d4b3+100;L+Brown+3D */
+  background: #f3e2c7; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(37, 65%, 87%, 1) 0%,
+    hsla(37, 42%, 58%, 1) 50%,
+    hsla(37, 42%, 51%, 1) 51%,
+    hsla(37, 55%, 81%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(37, 65%, 87%, 1) 0%,
+    hsla(37, 42%, 58%, 1) 50%,
+    hsla(37, 42%, 51%, 1) 51%,
+    hsla(37, 55%, 81%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(37, 65%, 87%, 1) 0%,
+    hsla(37, 42%, 58%, 1) 50%,
+    hsla(37, 42%, 51%, 1) 51%,
+    hsla(37, 55%, 81%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* RNG Class: Green / Brown */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="RNG"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#37441f+0,324908+50,752201+51,bf6e4e+100 */
+  background: #37441f; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(81, 37%, 20%, 1) 0%,
+    hsla(81, 80%, 16%, 1) 50%,
+    hsla(17, 98%, 23%, 1) 51%,
+    hsla(17, 47%, 53%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(81, 37%, 20%, 1) 0%,
+    hsla(81, 80%, 16%, 1) 50%,
+    hsla(17, 98%, 23%, 1) 51%,
+    hsla(17, 47%, 53%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(81, 37%, 20%, 1) 0%,
+    hsla(81, 80%, 16%, 1) 50%,
+    hsla(17, 98%, 23%, 1) 51%,
+    hsla(17, 47%, 53%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37441f', endColorstr='#bf6e4e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* SAM Class: Black / Red */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="SAM"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff0019+0,ff0004+50,0a0e0a+51,0a0809+100 */
+  background: #ff0019; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(354, 100%, 50%, 1) 0%,
+    hsla(359, 100%, 50%, 1) 50%,
+    hsla(120, 17%, 5%, 1) 51%,
+    hsla(330, 11%, 4%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(354, 100%, 50%, 1) 0%,
+    hsla(359, 100%, 50%, 1) 50%,
+    hsla(120, 17%, 5%, 1) 51%,
+    hsla(330, 11%, 4%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(354, 100%, 50%, 1) 0%,
+    hsla(359, 100%, 50%, 1) 50%,
+    hsla(120, 17%, 5%, 1) 51%,
+    hsla(330, 11%, 4%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0019', endColorstr='#0a0809',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* NIN Class: Black */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="NIN"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+  background: #45484d; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(218, 5%, 29%, 1) 0%,
+    hsla(0, 0%, 0%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(218, 5%, 29%, 1) 0%,
+    hsla(0, 0%, 0%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(218, 5%, 29%, 1) 0%,
+    hsla(0, 0%, 0%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* DRG Class: Purple */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="DRG"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8f60c9+0,7012aa+50,9746dd+100 */
+  background: #8f60c9; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(267, 49%, 58%, 1) 0%,
+    hsla(277, 81%, 37%, 1) 50%,
+    hsla(272, 69%, 57%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(267, 49%, 58%, 1) 0%,
+    hsla(277, 81%, 37%, 1) 50%,
+    hsla(272, 69%, 57%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(267, 49%, 58%, 1) 0%,
+    hsla(277, 81%, 37%, 1) 50%,
+    hsla(272, 69%, 57%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f60c9', endColorstr='#9746dd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* SMN Class: Teal */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="SMN"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a9e4f7+0,0fb4e7+100;Ble+3D+%235 */
+  background: #a9e4f7; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(195, 83%, 82%, 1) 0%,
+    hsla(194, 88%, 48%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(195, 83%, 82%, 1) 0%,
+    hsla(194, 88%, 48%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(195, 83%, 82%, 1) 0%,
+    hsla(194, 88%, 48%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* BLU Class: Blue */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="BLU"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d0e4f7+0,73b1e7+24,0a77d5+50,539fe1+79,87bcea+100;Blue+Pipe+%231 */
+  background: #d0e4f7; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(209, 71%, 89%, 1) 0%,
+    hsla(208, 71%, 68%, 1) 24%,
+    hsla(208, 91%, 44%, 1) 50%,
+    hsla(208, 70%, 60%, 1) 79%,
+    hsla(208, 70%, 73%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(209, 71%, 89%, 1) 0%,
+    hsla(208, 71%, 68%, 1) 24%,
+    hsla(208, 91%, 44%, 1) 50%,
+    hsla(208, 70%, 60%, 1) 79%,
+    hsla(208, 70%, 73%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(209, 71%, 89%, 1) 0%,
+    hsla(208, 71%, 68%, 1) 24%,
+    hsla(208, 91%, 44%, 1) 50%,
+    hsla(208, 70%, 60%, 1) 79%,
+    hsla(208, 70%, 73%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* COR Class: Maroon */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="COR"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+  background: #a90329; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(346, 96%, 34%, 1) 0%,
+    hsla(346, 97%, 29%, 1) 44%,
+    hsla(346, 100%, 22%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(346, 96%, 34%, 1) 0%,
+    hsla(346, 97%, 29%, 1) 44%,
+    hsla(346, 100%, 22%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(346, 96%, 34%, 1) 0%,
+    hsla(346, 97%, 29%, 1) 44%,
+    hsla(346, 100%, 22%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* PUP Class: Orange / Gold */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="PUP"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7c00+2,ff7c00+2,ff7f04+48,ffd905+50,ffe500+91,ffe500+100 */
+  background: #ff7c00; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(29, 100%, 50%, 1) 2%,
+    hsla(29, 100%, 50%, 1) 2%,
+    hsla(29, 100%, 51%, 1) 48%,
+    hsla(51, 100%, 51%, 1) 50%,
+    hsla(54, 100%, 50%, 1) 91%,
+    hsla(54, 100%, 50%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(29, 100%, 50%, 1) 2%,
+    hsla(29, 100%, 50%, 1) 2%,
+    hsla(29, 100%, 51%, 1) 48%,
+    hsla(51, 100%, 51%, 1) 50%,
+    hsla(54, 100%, 50%, 1) 91%,
+    hsla(54, 100%, 50%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(29, 100%, 50%, 1) 2%,
+    hsla(29, 100%, 50%, 1) 2%,
+    hsla(29, 100%, 51%, 1) 48%,
+    hsla(51, 100%, 51%, 1) 50%,
+    hsla(54, 100%, 50%, 1) 91%,
+    hsla(54, 100%, 50%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7c00', endColorstr='#ffe500',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* DNC Class: Red / Brown */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="DNC"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff4c4f+0,ff020f+50,752201+51,bf6e4e+100 */
+  background: #ff4c4f; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(359, 100%, 65%, 1) 0%,
+    hsla(357, 100%, 51%, 1) 50%,
+    hsla(17, 98%, 23%, 1) 51%,
+    hsla(17, 47%, 53%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(359, 100%, 65%, 1) 0%,
+    hsla(357, 100%, 51%, 1) 50%,
+    hsla(17, 98%, 23%, 1) 51%,
+    hsla(17, 47%, 53%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(359, 100%, 65%, 1) 0%,
+    hsla(357, 100%, 51%, 1) 50%,
+    hsla(17, 98%, 23%, 1) 51%,
+    hsla(17, 47%, 53%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4c4f', endColorstr='#bf6e4e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* SCH Class: Brown / Black */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="SCH"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bf6e4e+1,752201+47,752201+47,000000+50,020101+100 */
+  background: #bf6e4e; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(17, 47%, 53%, 1) 1%,
+    hsla(17, 98%, 23%, 1) 47%,
+    hsla(17, 98%, 23%, 1) 47%,
+    hsla(0, 0%, 0%, 1) 50%,
+    hsla(0, 33%, 1%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(17, 47%, 53%, 1) 1%,
+    hsla(17, 98%, 23%, 1) 47%,
+    hsla(17, 98%, 23%, 1) 47%,
+    hsla(0, 0%, 0%, 1) 50%,
+    hsla(0, 33%, 1%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(17, 47%, 53%, 1) 1%,
+    hsla(17, 98%, 23%, 1) 47%,
+    hsla(17, 98%, 23%, 1) 47%,
+    hsla(0, 0%, 0%, 1) 50%,
+    hsla(0, 33%, 1%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf6e4e', endColorstr='#020101',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* GEO Class: Orange / White */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="GEO"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7c00+2,ff7c00+2,ff7f04+48,ffffff+50,ffffff+79,ffffff+100 */
+  background: #ff7c00; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(29, 100%, 50%, 1) 2%,
+    hsla(29, 100%, 50%, 1) 2%,
+    hsla(29, 100%, 51%, 1) 48%,
+    hsla(0, 0%, 100%, 1) 50%,
+    hsla(0, 0%, 100%, 1) 79%,
+    hsla(0, 0%, 100%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(29, 100%, 50%, 1) 2%,
+    hsla(29, 100%, 50%, 1) 2%,
+    hsla(29, 100%, 51%, 1) 48%,
+    hsla(0, 0%, 100%, 1) 50%,
+    hsla(0, 0%, 100%, 1) 79%,
+    hsla(0, 0%, 100%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(29, 100%, 50%, 1) 2%,
+    hsla(29, 100%, 50%, 1) 2%,
+    hsla(29, 100%, 51%, 1) 48%,
+    hsla(0, 0%, 100%, 1) 50%,
+    hsla(0, 0%, 100%, 1) 79%,
+    hsla(0, 0%, 100%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7c00', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* RUN Class: Dark Blue */
-[data-type="WAR"] {
-  background-color: aliceblue;
+[data-type="RUN"] {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#22347c+0,242a82+100 */
+  background: #22347c; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(228, 57%, 31%, 1) 0%,
+    hsla(236, 56%, 33%, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(228, 57%, 31%, 1) 0%,
+    hsla(236, 56%, 33%, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    hsla(228, 57%, 31%, 1) 0%,
+    hsla(236, 56%, 33%, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22347c', endColorstr='#242a82',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  color: whitesmoke;
 }

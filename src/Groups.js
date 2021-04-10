@@ -83,7 +83,7 @@ class Groups {
         this.storage.setItem(this.groupTwoName, this.groupTwo);
         break;
       case 3:
-        this.storage.setItem(this.groupOneThree, this.groupThree);
+        this.storage.setItem(this.groupThreeName, this.groupThree);
         break;
       default:
         throw new Error(
@@ -116,6 +116,7 @@ class Groups {
   }
 
   drawTable(element) {
+    let self = this;
     let html = `
          <table class="table">
             <thead>
@@ -129,15 +130,15 @@ class Groups {
                 <th scope="col">P: #6</th>
                 <th scope="col">Checks</th>
               </tr>
-              <tr data-gType = ${this.groupOneName}>
+              <tr data-gType = ${this.groupOneName} id=${"groupOne"}>
                 <td>
                 ${this.groupOneName} 
                 </td>
               </tr>
-              <tr data-gType = ${this.groupTwoName}>
+              <tr data-gType = ${this.groupTwoName} id=${"groupTwo"}>
                 <td>${this.groupTwoName}</td>
               </tr>
-              <tr data-gType = ${this.groupThreeName}>
+              <tr data-gType = ${this.groupThreeName} id=${"groupThree"}>
                 <td>${this.groupThreeName}</td>
               </tr>
             </thead>
@@ -149,8 +150,20 @@ class Groups {
       for (let ii = 0; ii < 7; ii++) {
         let id = i + "-" + ii;
         if (ii < 6) {
-          $(row).append("<td>" + templates.select(id, i, ii) + "</td>"); // creates the cells with data attributes for row and column
+          $(row).append(
+            "<td data-type>" + templates.select(id, i, ii) + "</td>"
+          ); // creates the cells with data attributes for row and column
           $("#" + id).append(templates.options1);
+
+          $("#" + id).on("change", (e) => {
+            e.preventDefault();
+            let select = $("#" + id); // get the select again
+            let val = $("#" + id).val(); // gets the value of the select box
+            let td = select.parent()[0]; // get the cell surrounding the select
+            td.dataset.type = val; // set the data attr type to the value, CSS changes the background
+            select[0].dataset.type = val;
+            console.log(select.data("type")); // LOL have fun with that in the future lol dumbass
+          });
         } else {
           $(row).append(`<td id=${id}></td>`);
         } // creates the cells with data attributes for row and column
