@@ -18546,5 +18546,9 @@ require("./styles.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _Groups.GROUPS.drawTable("table_area");
+
+setInterval(function () {
+  _Groups.GROUPS.storeCurrent();
+}, 2 * 60 * 60 * 1000);
 },{"bootstrap":"BQpi","bootstrap/dist/css/bootstrap.min.css":"y3A0","jquery":"juYr","./Groups.js":"lQ6m","./styles.css":"y3A0"}]},{},["WSmw"], null)
-//# sourceMappingURL=main.1a20f280.js.map
+//# sourceMappingURL=main.3d0c30d0.js.map

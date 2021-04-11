@@ -5,3 +5,7 @@ import { GROUPS } from "./Groups.js";
 import "./styles.css";
 
 GROUPS.drawTable("table_area");
+
+setInterval(() => {
+  GROUPS.storeCurrent();
+}, 2 * 60 * 60 * 1000);
