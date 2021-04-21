@@ -130,8 +130,10 @@ class Groups {
                 <th scope="col">P: #6</th>
                 <th scope="col">Checks</th>
               </tr>
-              <tr data-gType = ${this.groupOneName} id=${"groupOne"}>
-                <td>
+              <tr data-gType = ${
+                this.groupOneName
+              } contenteditable id=${"groupOne"}>
+                <td id = ${this.groupOneName}>
                 ${this.groupOneName} 
                 </td>
               </tr>
@@ -146,6 +148,12 @@ class Groups {
     `;
 
     $("#" + element).html(html);
+
+    console.log($("#" + this.groupOneName));
+    $("#" + this.groupOneName).on("input", () => {
+      console.log("Hello");
+    });
+
     $("[data-gType]").each((i, row) => {
       for (let ii = 0; ii < 7; ii++) {
         let id = i + "-" + ii;
